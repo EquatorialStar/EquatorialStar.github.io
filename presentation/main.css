@@ -1,5 +1,8 @@
 div {
-	color: #666;
-	font-size: 2em;
-	box-shadow: 0 0 5px #000;
+	background: #eee;
+	width: 100px;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
