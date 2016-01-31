@@ -7,3 +7,17 @@ div#fixed {
 	bottom: 0;
 	left: 0;
 }
+
+#money {
+	/*background-color: #fff;*/
+	position: fixed;
+	width: 300px;
+	height: 100px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3em;
+	color: yellow;
+	text-shadow: 0px 0px 10px yellow;
+	text-align: center;
+}
