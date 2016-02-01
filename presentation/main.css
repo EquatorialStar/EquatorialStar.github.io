@@ -86,6 +86,7 @@ div, ul, li, img {
 	left: 0;
 	right: 0;
 	background-color: #3D001C;
+	overflow: hidden;
 }
 
 #how_i_can_help {
@@ -108,6 +109,7 @@ div, ul, li, img {
 	font-size: 2.5em;
 	line-height: 5;
 	text-align: center;
+	text-shadow: 0px 0px 10px white;
 	background-image: url(img/mint.jpg);
 	background-position: 50% 30%;
 }
@@ -121,6 +123,36 @@ div, ul, li, img {
 	font-size: 2.5em;
 	line-height: 5;
 	text-align: center;
+	text-shadow: 0px 0px 10px white;
 	background-image: url(img/skills.jpg);
+	background-position: 50% 30%;	
+}
+#heighten_their_self-esteem {
+	left: 0;
+	right: 0;
+	top: 30%;
+	height: 5em;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 2.5em;
+	line-height: 5;
+	text-align: center;
+	text-shadow: 0px 0px 10px white;
+	background-image: url(img/self-esteem.jpg);
+	background-position: 50% 30%;	
+}
+#make_them_pay_attention {
+	left: 0;
+	right: 0;
+	top: 30%;
+	height: 5em;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 2.5em;
+	line-height: 5;
+	text-align: center;
+	color: yellow;
+	text-shadow: 0px 0px 10px black;
+	background-image: url(img/attention.jpg);
 	background-position: 50% 30%;	
 }
