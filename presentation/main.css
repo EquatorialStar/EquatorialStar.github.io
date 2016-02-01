@@ -160,3 +160,76 @@ div, ul, li, img {
 	background-position: 50% 30%;
 	/*display: block;*/
 }
+
+/* the fifth slide */
+#slide__my_skills__css {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(39, 40, 34);
+	/*display: block;*/
+}
+#html_css_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#html_css_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
+#javascript_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#javascript_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
+#php_mysql_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#php_mysql_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
+#wordpress_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#wordpress_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
