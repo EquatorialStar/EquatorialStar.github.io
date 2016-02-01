@@ -6,9 +6,6 @@ div, ul, li, img {
 /* the first slide */
 #slide__happiness_of_entrepreneur {
 	background: #303C69;
-	/*width: 100;*/
-	/*height: 60px;*/
-
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -46,4 +43,58 @@ div, ul, li, img {
 	top: 45%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+
+/* the third slide */
+#slide__ways_of_improving {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #030057;
+}
+
+#ways_of_improving {
+	top: 12%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	/*font-family: arial;*/
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 10px white;	
+}
+
+#job_satisfaction {
+	top: 25%;
+	left: 10%;
+	font-size: 1.5em;
+	font-family: arial;
+	color: white;
+}
+#division_of_labour {
+	top: 35%;
+	left: 10%;
+	font-size: 1.5em;
+	font-family: arial;
+	color: white;	
+}
+
+/* the fourth slide */
+#slide_exactly_how {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #3D001C;
+}
+
+#how_i_can_help {
+	top: 12%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	/*font-family: arial;*/
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 10px white;	
 }
