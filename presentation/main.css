@@ -101,7 +101,6 @@ div, ul, li, img {
 	font-weight: bold;
 	color: white;
 	text-shadow: 0px 0px 10px white;
-	display: block;
 }
 #help_refresh_knowledge {
 	left: 0;
@@ -116,7 +115,6 @@ div, ul, li, img {
 	text-shadow: 0px 0px 10px white;
 	background-image: url(img/mint.jpg);
 	background-position: 50% 30%;
-	display: block;
 }
 #help_get_some_new_skills {
 	left: 0;
@@ -131,7 +129,6 @@ div, ul, li, img {
 	text-shadow: 0px 0px 10px white;
 	background-image: url(img/skills.jpg);
 	background-position: 50% 30%;
-	display: block;
 }
 #heighten_their_self-esteem {
 	left: 0;
@@ -146,7 +143,6 @@ div, ul, li, img {
 	text-shadow: 0px 0px 10px white;
 	background-image: url(img/self-esteem.jpg);
 	background-position: 50% 30%;	
-	display: block;
 }
 #make_them_pay_attention {
 	left: 0;
@@ -162,5 +158,5 @@ div, ul, li, img {
 	text-shadow: 0px 0px 10px black;
 	background-image: url(img/attention.jpg);
 	background-position: 50% 30%;
-	display: block;
+	/*display: block;*/
 }
