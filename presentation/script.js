@@ -1,3 +1,3 @@
 "use strict";
 
-onload = function() { skrollr.init("mobileDeceleration=0.004"); };
+onload = function() { skrollr.init("mobileDeceleration=0.001"); };
