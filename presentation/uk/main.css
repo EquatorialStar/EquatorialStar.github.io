@@ -1,0 +1,327 @@
+div, ul, li, img {
+	position: fixed;
+}
+
+.skrollable-after {
+	display: none;
+}
+
+/* the first slide */
+#slide__happiness_of_entrepreneur {
+	background: #303C69;
+	top: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#happiness_of_entrepreneur {
+	width: 300px;
+	height: 100px;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 3em;
+	color: yellow;
+	text-shadow: 0px 0px 10px yellow;
+	text-align: center;
+}
+
+#orders li {
+	color: #fff;
+	font-size: 1.5em;
+	font-family: arial;
+	display: block;
+}
+
+
+/* the second slide */
+#slide__sensational_solution {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #030057;
+	background-color: #ccccda;
+}
+
+#sensation {
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/* the third slide */
+#slide__ways_of_improving {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #030057;
+}
+
+#ways_of_improving {
+	top: 12%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	/*font-family: arial;*/
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 10px white;	
+}
+
+#job_satisfaction {
+	top: 25%;
+	left: 10%;
+	font-size: 1.5em;
+	font-family: arial;
+	color: white;
+}
+#division_of_labour {
+	top: 35%;
+	left: 10%;
+	font-size: 1.5em;
+	font-family: arial;
+	color: white;	
+}
+
+/* the fourth slide */
+#slide__exactly_how {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #3D001C;
+	overflow: hidden;
+}
+
+#how_i_can_help {
+	top: 12%;
+	left: 40%;
+	transform: translate(-50%, -50%);
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+	text-shadow: 0px 0px 10px white;
+}
+#help_refresh_knowledge {
+	left: 0;
+	right: 0;
+	top: 30%;
+	height: 5em;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 2.5em;
+	line-height: 5;
+	text-align: center;
+	text-shadow: 0px 0px 10px white;
+	background-image: url(img/mint.jpg);
+	background-position: 50% 30%;
+}
+#help_get_some_new_skills {
+	left: 0;
+	right: 0;
+	top: 30%;
+	height: 5em;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 2.5em;
+	line-height: 5;
+	text-align: center;
+	text-shadow: 0px 0px 10px white;
+	background-image: url(img/skills.jpg);
+	background-position: 50% 30%;
+}
+#heighten_their_self-esteem {
+	left: 0;
+	right: 0;
+	top: 30%;
+	height: 5em;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 2.5em;
+	line-height: 5;
+	text-align: center;
+	text-shadow: 0px 0px 10px white;
+	background-image: url(img/self-esteem.jpg);
+	background-position: 50% 30%;	
+}
+#make_them_pay_attention {
+	left: 0;
+	right: 0;
+	top: 30%;
+	height: 5em;
+	font-family: arial;
+	font-weight: bolder;
+	font-size: 2.5em;
+	line-height: 5;
+	text-align: center;
+	color: yellow;
+	text-shadow: 0px 0px 10px black;
+	background-image: url(img/attention.jpg);
+	background-position: 50% 30%;
+	/*display: block;*/
+}
+
+/* the fifth slide */
+#slide__my_skills__css {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgb(39, 40, 34);
+	/*display: block;*/
+}
+#html_css_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#html_css_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
+#javascript_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#javascript_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
+#php_mysql_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#php_mysql_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
+#wordpress_background {
+	left: -7em;
+	right: 0;
+	height: 97em;
+	/*background-color: #eee;*/
+}
+#wordpress_skill {
+	left: 0;
+	right: 0;
+	background: #eee;
+	box-shadow: inset 0 0 10px #000;
+	height: 4em;
+	font-size: 3em;
+	line-height: 4;
+	text-align: center;
+}
+
+/* the seventh slide */
+#slide__sense_of_beauty {
+	background-color: #18172E;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+#sense_of_beauty {
+	top: 1em;
+	font-size: 2.5em;
+	color: yellow;
+	text-shadow: 0px 0px 10px yellow;
+	left: -1em;
+	right: 0;
+	text-align: center;
+}
+.sense_of_beauty__photo {
+	top: 10em;
+	left: 0;
+	right: 0;
+	text-align: center;
+}
+.sense_of_beauty__photo img {
+	display: inline-block;
+	width: 100%;
+	left: 0;
+}
+
+/* the eights slide */
+#slide__photoshop_skill {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 100%;
+}
+#from_borth_inscription {
+	left: 100%;
+	width: 100%;
+	top: 1em;
+	text-align: center;
+	font-size: 3em;
+	color: #444;
+
+}
+#photoshop_icon {
+	left: 100%;
+	width: 100%;
+	top: 7em;
+	text-align: center;
+}
+#photoshop_icon img {
+	display: inline-block;
+	text-align: center;
+	left: inherit;
+	margin-left: 12.5%;
+	width: 75%;
+}
+
+/* the ninth slide */
+#slide__working_conditions {
+	width: 100%;
+	height: 100%;
+	left: 0;
+}
+#it_is_profitable {
+	top: 1em;
+	text-align: center;
+	left: 0;
+	right: 0;
+	font-size: 3em;
+	color: #333;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#you_choose_the_conditions {
+	top: 3em;
+	text-align: center;
+	left: 0;
+	right: 0;
+	font-size: 3em;
+	color: #333;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+#princess_with_gold {
+	top: 17em;
+	/*transform: translateY(100%);*/
+	width: 100%;
+}
+#princess_with_gold img {
+	width: 100%;
+	/*height: 100%;*/
+}
