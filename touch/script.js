@@ -23,11 +23,11 @@ View.canvas.height = window.innerHeight;
 View.canvas.width = window.innerWidth;
 View.ctx = View.canvas.getContext("2d");
 
-// View.canvas.onclick = function (e) {
-// 	View.drawPointUnderFinger(e.clientX, e.clientY);
-// }
+View.canvas.onclick = function (e) {
+	View.drawPointUnderFinger(e.clientX, e.clientY);
+}
 
-View.drawPointUnderFinger(100, 100);
+// View.drawPointUnderFinger(100, 100);
 
 
 }
