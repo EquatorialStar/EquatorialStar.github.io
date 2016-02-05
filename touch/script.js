@@ -14,7 +14,7 @@ var View = {
 			10,
 			0, 
 			Math.PI * 2);
-		this.ctx.fillStyle = "eee";
+		this.ctx.fillStyle = "#eee";
 		this.ctx.fill();
 		this.ctx.closePath();
 	}
@@ -23,10 +23,11 @@ View.canvas.height = window.innerHeight;
 View.canvas.width = window.innerWidth;
 View.ctx = View.canvas.getContext("2d");
 
-View.canvas.onclick = function (e) {
-	View.drawPointUnderFinger(e.clientX, e.clientY);
-}
+// View.canvas.onclick = function (e) {
+// 	View.drawPointUnderFinger(e.clientX, e.clientY);
+// }
 
+View.drawPointUnderFinger(100, 100);
 
 
 }
