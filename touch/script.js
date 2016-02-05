@@ -7,6 +7,7 @@ var View = {
 	canvas: document.getElementById('canvas'),
 
 	drawPointUnderFinger: function (touchX, touchY) {
+		this.ctx.fillStyle = "eee";
 		this.ctx.beginPath();
 		this.ctx.arc(
 			touchX,
@@ -14,7 +15,7 @@ var View = {
 			10,
 			0, 
 			Math.PI * 2);
-		this.ctx.fillStyle = "eee";
+		this.ctx.closePath();
 		this.ctx.fill();
 	}
 };
