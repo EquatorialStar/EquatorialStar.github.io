@@ -413,7 +413,7 @@ ProgressBar.prototype.draw = function (progress) {
 	if (this.reverse) progress = 1 - progress;
 
 	var ctx = this.ctx;
-	ctx.clearRect(0, 0, 1000, 1000);
+	// ctx.clearRect(0, 0, 1000, 1000);
 	ctx.beginPath();
 	ctx.lineWidth = this.em/4;
 	ctx.lineCap = "round";
