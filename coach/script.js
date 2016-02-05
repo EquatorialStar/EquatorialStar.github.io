@@ -419,8 +419,9 @@ ProgressBar.prototype.draw = function (progress) {
 
 	ctx.beginPath();
 	ctx.arc(this.posX, this.posY, this.size, -Math.PI/2, Math.PI * 2 * progress - Math.PI/2, false);
-	ctx.strokeStyle = "ff4300";
+	ctx.strokeStyle = "#ff4300";
 	ctx.stroke();
+	ctx.closePath();
 };
 ProgressBar.prototype.reverse = false;
 /**
