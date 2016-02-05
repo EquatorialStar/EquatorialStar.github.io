@@ -7,7 +7,6 @@ var View = {
 	canvas: document.getElementById('canvas'),
 
 	drawPointUnderFinger: function (touchX, touchY) {
-		this.ctx.fillStyle = "eee";
 		this.ctx.beginPath();
 		this.ctx.arc(
 			touchX,
@@ -15,8 +14,9 @@ var View = {
 			10,
 			0, 
 			Math.PI * 2);
-		this.ctx.closePath();
+		this.ctx.fillStyle = "eee";
 		this.ctx.fill();
+		this.ctx.closePath();
 	}
 };
 View.canvas.height = window.innerHeight;
@@ -25,7 +25,6 @@ View.ctx = View.canvas.getContext("2d");
 
 View.canvas.onclick = function (e) {
 	View.drawPointUnderFinger(e.clientX, e.clientY);
-	alert(1);
 }
 
 
