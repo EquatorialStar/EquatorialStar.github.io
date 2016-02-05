@@ -413,11 +413,10 @@ ProgressBar.prototype.draw = function (progress) {
 	if (this.reverse) progress = 1 - progress;
 
 	var ctx = this.ctx;
-
+	ctx.clearRect(0, 0, 1000, 1000);
+	ctx.beginPath();
 	ctx.lineWidth = this.em/4;
 	ctx.lineCap = "round";
-
-	ctx.beginPath();
 	ctx.arc(this.posX, this.posY, this.size, -Math.PI/2, Math.PI * 2 * progress - Math.PI/2, false);
 	ctx.strokeStyle = "#ff4300";
 	ctx.stroke();
