@@ -25,6 +25,7 @@ View.ctx = View.canvas.getContext("2d");
 
 View.canvas.onclick = function (e) {
 	View.drawPointUnderFinger(e.clientX, e.clientY);
+	alert(1);
 }
 
 
